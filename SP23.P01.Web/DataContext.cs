@@ -23,5 +23,6 @@ public class DataContext : DbContext
         modelBuilder.Entity<TrainStation>()
             .Property(x => x.Address)
             .IsRequired();
+
     }
 }

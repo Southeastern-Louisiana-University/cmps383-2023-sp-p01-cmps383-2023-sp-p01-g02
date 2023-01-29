@@ -24,6 +24,7 @@ namespace SP23.P01.Web.Entities
                 .HasMaxLength(120);
             builder.Property(t => t.Address)
                 .IsRequired();
+
         }
     }
 }

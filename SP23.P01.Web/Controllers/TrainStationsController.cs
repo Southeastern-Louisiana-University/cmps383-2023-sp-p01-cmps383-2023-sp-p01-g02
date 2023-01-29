@@ -147,6 +147,7 @@ namespace SP23.P01.Web.Controllers
             _dataContext.TrainStations.Remove(station);
             _dataContext.SaveChanges();
             return Ok();
+
         }
     }
 }

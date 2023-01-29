@@ -31,5 +31,6 @@ namespace SP23.P01.Web.Dtos
         public string? Name { get; set; }
         [Required]
         public string? Address { get; set; }
+
     }
 }
